@@ -1,0 +1,90 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.crop {
+    width: 100%; /* or a fixed width */
+    height: 90vh; /* set a fixed height for cropping */
+    background-image: url('mountain.png');
+    background-size: cover;           /* Crop instead of stretch */
+    background-position: center;      /* Center the image in the div */
+    background-repeat: no-repeat;     /* Prevent tiling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18%
+}
+
+#name {
+
+    color: white;
+    font-family: "Cardo", serif;
+    position: relative;
+    top: 10%;
+    font-size: 20rem;
+    letter-spacing: 2rem;
+}
+
+#white {    
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+#programmer {
+    margin: 15px;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+#about-me {
+    margin: 80px auto;
+    width: 68%;
+    border: 2px solid #123458;
+    border-radius: 5px;
+    
+}
+
+.blue {
+    font-weight: bold;
+    color: #123458;
+}
+
+li {
+    font-size: 1.9rem;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+a {
+    color: #F1EFEC;
+    text-decoration: none;   
+}    
+
+.ms-3 {
+    margin-right: 5px;
+}
+
+#footer {
+    background-color: #123458;
+}
+
+.bib {
+    fill: #F1EFEC;
+}
+
+#copy {
+    color: #F1EFEC;
+}
+
+@media (max-width: 1000px) {
+    #name {
+        font-size: 10rem;
+    }
+}
